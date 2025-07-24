@@ -15,29 +15,6 @@ The backend is responsible for handling user authentication, managing pharmacy-r
 - **Device Compatibility**: Backend designed to support frontend rendering across multiple breakpoints **(320px, 375px, 768px, 1440px)**.
 - **Client-Side Validation Support**: Integrated with **React Hook Form** and third-party APIs for robust validation.
 
-## Installation & Setup
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/akash11-01/E-Pharma-backend.git
-   cd epharmacy-backend
-   ```
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-3. **Configure environment variables:**
-   Create a `.env` file and define the following:
-   ```env
-   MONGO_URI=your_mongodb_connection_string
-   PORT=3000
-   JWT_ACCESS_SECRET=your_secret_key
-   JWT_REFRESH_SECRET=your_secret_key
-   NODE_ENV=development
-   ```
-4. **Run the server:**
-   ```bash
-   npm run dev
-   ```
 
 ## API Endpoints
 | Method | Endpoint            | Description                         |
