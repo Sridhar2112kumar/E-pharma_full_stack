@@ -18,30 +18,6 @@ The frontend ensures a responsive and seamless user experience across multiple d
 - **Client-Side Validation**: Implemented using **React Hook Form** and third-party APIs.
 - **Seamless API Communication**: Uses **Axios** for efficient backend interaction.
 
-## Installation & Setup
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/akash11-01/E-Pharma-frontend.git
-   cd epharmacy-frontend
-   ```
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-3. **Configure environment variables:**
-   Create a `.env` file and define the following:
-   ```env
-   REACT_APP_API_URL=http://localhost:5000
-   ```
-4. **Run the application:**
-   ```bash
-   npm run dev
-   ```
-
-## Backend Repository
-The backend code for this project can be found here:
-[Backend Repository](https://github.com/akash11-01/E-Pharma-backend)
-
 ---
 
 For contributions or issues, feel free to open a pull request or raise an issue!
